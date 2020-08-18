@@ -6,6 +6,11 @@ inputs:
   github_token:
     description: 'GITHUB_TOKEN'
     required: true
+  name:
+    description: |
+      Tool name in review comment.
+      Default is tfsec.
+    default: 'tfsec'
   level:
     description: 'Report level for reviewdog [info,warning,error]'
     default: 'error'
